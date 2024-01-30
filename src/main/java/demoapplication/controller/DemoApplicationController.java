@@ -13,6 +13,6 @@ public class DemoApplicationController {
 	
 	@GetMapping("hi")
 	public ResponseEntity<String> hi() {
-		return new ResponseEntity<String>("this is hi msg",HttpStatus.OK);
-	}	
+		return new ResponseEntity<String>("hi msg CI CD successfully implemented",HttpStatus.OK);
+	}		
 }
