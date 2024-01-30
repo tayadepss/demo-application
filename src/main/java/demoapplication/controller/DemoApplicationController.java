@@ -13,6 +13,6 @@ public class DemoApplicationController {
 	
 	@GetMapping("hi")
 	public ResponseEntity<String> hi() {
-		return new ResponseEntity<String>("rech to jenkins",HttpStatus.OK);
+		return new ResponseEntity<String>("rech to jenkins,in sonar qube",HttpStatus.OK);
 	}		
 }
